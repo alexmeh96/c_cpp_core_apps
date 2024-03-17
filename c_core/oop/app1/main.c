@@ -4,11 +4,8 @@
 
 int main(void) {
     car_t car;
-     
     car_construct(&car, "BMV");
-
-    printf(car_get_name(&car));
-
     
+    printf("%s\n", car_get_name(&car)); 
     return 0;
 }

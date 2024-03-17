@@ -3,11 +3,11 @@
 
 typedef struct {
     char name[32];
-    int age; 
+    int age;
 } car_t;
 
 void car_construct(car_t*, const char*);
 void car_destructor(car_t*);
-int car_get_name(car_t*);
+char* car_get_name(car_t*);
 
 #endif
